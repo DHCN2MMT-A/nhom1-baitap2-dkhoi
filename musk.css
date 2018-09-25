@@ -60,13 +60,8 @@ p {
     text-align: center;
     text-decoration: underline;
 }
-ol  {
-    color: red;
-    
-}
-li {
-    color:blue;
-}
+li:nth-child(even) {color: blue;}
+li:nth-child(odd) {color: red;}
 .leftBox  img {
 	width: 35%;
  	padding-left: 200px;
